@@ -3,7 +3,7 @@
 Tiny Go webserver that prints os information and HTTP request to output
 
 ```sh
-$ docker run -d -p 8000:80 --name iamfoo xuqingfeng/whoami
+$ docker run -d -p 8000:80 --name iamfoo xuqingfeng/whoami:dev
 $ curl "http://0.0.0.0:8000"
 Hostname :  6e0030e67d6a
 IP :  127.0.0.1
