@@ -99,6 +99,7 @@ func whoamI(w http.ResponseWriter, req *http.Request) {
 		}
 	}
 	fmt.Fprintln(w, "X-Powered-By:", "https://github.com/xuqingfeng/whoamI")
+	fmt.Fprintln(w)
 	req.Write(w)
 }
 
